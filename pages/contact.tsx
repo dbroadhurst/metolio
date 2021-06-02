@@ -54,8 +54,9 @@ export default function Contact() {
             </div>
             <div>{bio.street}</div>
             <div>{bio.city}</div>
+            <div>{bio.state}</div>
             <div>{bio.zip}</div>
-            <div className="p-mb-1">Tel. {bio.telephone}</div>
+            {bio.telephone ? <div className="p-mb-1">Tel. {bio.telephone}</div> : null}
           </div>
           <div className="p-col-12 p-m-2">
             <div className="p-d-flex p-flex-row p-justify-center p-align-center p-mb-2">
