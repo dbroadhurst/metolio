@@ -35,7 +35,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Open data/bio.ts to update the placeholder details to you information
+Open data/bio.ts to update the placeholder details to your information
 
 ## Deploy
 
