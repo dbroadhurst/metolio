@@ -1,8 +1,18 @@
 # Metolio
 
 ![Logo](public/screenshot.png)
+Images from [Unsplash](https://unsplash.com/)
 
-Metolio is a quck and easy way to build your own website to share your contact details, resume, portfolio and blog. The nextjs framework is used to statically generate each page so its lightning fast and SEO searchale.
+Metolio is a quick and easy way to build your own website to share your contact details, resume, portfolio, and blog. The nextjs framework is used to statically generate each page so its lightning fast and SEO searchable.
+
+## Key Features
+
+- Easy to modify
+- Fully SEO Compliant
+- Open graph metadata generator
+- Lightning fast page load
+- Static website build
+- Extensive markdown support
 
 ## Core Tech stack
 

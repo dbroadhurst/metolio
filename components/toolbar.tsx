@@ -23,7 +23,7 @@ export default function Toolbar() {
 
   function AppMenu() {
     return (
-      <Link href="/">
+      <Link href="https://github.com/dbroadhurst/metolio">
         <a>
           <div className="p-mr-4" style={{ width: 40, height: 40 }}>
             <ImageLoader src={bio.darkTheme ? '/github-light.png' : '/github-dark.png'} alt="avatar" />
