@@ -1,0 +1,160 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+}
+
+html {
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: var(--surface-a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  max-width: 1280px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--surface-b);
+}
+
+#__next {
+  background-color: var(--surface-b);
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 2rem;
+}
+
+.p-component {
+  font-family: var(--font-family);
+  line-height: 1.5;
+}
+
+.datatable-editing .editable-cells-table td.p-cell-editing {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  /* margin: 1.5rem 0 1rem 0; */
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.2;
+  color: inherit;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+.hover-pointer {
+}
+
+.hover-pointer:hover {
+  cursor: pointer;
+}
+
+a:-webkit-any-link {
+  color: var(--text-color);
+}
+
+.image-loader-enter {
+  opacity: 0;
+}
+
+.image-loader-enter-active {
+  transition: opacity 250ms;
+  opacity: 1;
+}
+
+.image-loader-exit {
+  opacity: 1;
+}
+
+.timeline-demo .custom-marker {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-demo .p-timeline-event-content,
+.timeline-demo .p-timeline-event-opposite {
+  line-height: 1;
+}
+
+@media screen and (max-width: 960px) {
+  .timeline-demo .customized-timeline .p-timeline-event:nth-child(even) {
+    flex-direction: row !important;
+  }
+  .timeline-demo .customized-timeline .p-timeline-event:nth-child(even) .p-timeline-event-content {
+    text-align: left !important;
+  }
+  .timeline-demo .customized-timeline .p-timeline-event-opposite {
+    flex: 0;
+  }
+  .timeline-demo .customized-timeline .p-card {
+    margin-top: 1rem;
+  }
+}
