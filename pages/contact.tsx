@@ -19,7 +19,7 @@ export default function Contact() {
     }
 
     return (
-      <a key={index} className="p-m-1" href={bio[link.name]} target="_blank">
+      <a key={index} className="p-m-1" href={bio[link.name]} target="_blank" rel="noopener noreferrer">
         <div style={{ width: 24, height: 24 }}>
           <ImageLoader src={link.icon} alt="Social Icon" />
         </div>
