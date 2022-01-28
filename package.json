@@ -10,7 +10,7 @@
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
     "gray-matter": "^4.0.3",
-    "next": "^12.0.8",
+    "next": "^12.0.9",
     "primeflex": "^2.0.0",
     "primeicons": "^4.1.0",
     "primereact": "^6.2.1",
